@@ -1,7 +1,5 @@
-# Algorithmic
- Here is the implementation of many algorithms classified by family. 
- <br />
-These are : 
+# Algorithmic with Python
+Here is some algorithms' implementation in python, grouped by as follows :
  <br />
 
 <ul>
