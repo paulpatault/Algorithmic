@@ -8,20 +8,7 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 """
 
-# Definition for singly-linked list.
-class ListNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.next = None
-
-    def __repr__(self):
-        node = self
-        output = ""
-        while node != None:
-            output += str(node.val)
-            output += " "
-            node = node.next
-        return output
+from ListNode import ListNode
 
 
 class Solution:
@@ -53,4 +40,3 @@ l2.next.next = ListNode(4)
 result = Solution().addTwoNumbers(l1, l2)
 print(result)
 # 7 0 8
-
