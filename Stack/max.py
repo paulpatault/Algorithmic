@@ -5,7 +5,7 @@ Each method should run in constant time.
 """
 
 
-class MaxStack:
+class Stack:
     def __init__(self):
         self.stack = []
         self.maximum = None
@@ -35,14 +35,14 @@ class MaxStack:
         return self.next != 0
 
 
-s = MaxStack()
+s = Stack()
 s.push(1)
-s.push(2)
 s.push(3)
 s.push(2)
+s.push(4)
+print(s.max())
+# 4
+s.pop()
+s.pop()
 print(s.max())
 # 3
-s.pop()
-s.pop()
-print(s.max())
-# 2
